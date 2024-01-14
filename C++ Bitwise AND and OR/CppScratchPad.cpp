@@ -7,8 +7,9 @@ using std::endl;
 
 void main()
 {
-	// 0000 0000 0000 0001
+	// 0100 0100 0000 0001
 	short myValue = 1;
+	// 0100 0100 0000 0100
 	short yourValue = 4;
 
 	cout << myValue << endl;
