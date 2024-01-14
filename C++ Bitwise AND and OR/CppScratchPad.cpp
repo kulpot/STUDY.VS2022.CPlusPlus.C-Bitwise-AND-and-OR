@@ -5,7 +5,13 @@ using std::endl;
 // ------------------------- C++ Bitwise AND and OR ---------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=qTFUnp_KwHg&list=PLRwVmtr-pp043Ah3GxAqNyoMGyo3_LDNh&index=2
 
+void main()
+{
+	// 0000 0000 0000 0001
+	short myValue = 1;
 
+	cout << myValue << endl;
+}
 
 
 
