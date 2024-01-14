@@ -9,6 +9,7 @@ void main()
 {
 	// 0000 0000 0000 0001
 	short myValue = 1;
+	short yourValue = 4;
 
 	cout << myValue << endl;
 }
