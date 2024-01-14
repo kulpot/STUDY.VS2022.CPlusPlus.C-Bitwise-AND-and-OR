@@ -8,13 +8,30 @@ using std::endl;
 void main()
 {
 	// 0000 0000 0000 0001
-	short myValue = 1;
+	//short myValue = 1;
 	// 0000 0000 0000 0100
-	short yourValue = 4;
+	//short yourValue = 4;
 
-	bool b = true && false;
+	//bool b = true && false;		// AND
+	//bool b = true || false;		// OR
 
-	cout << myValue << endl;
+	//short result = myValue & yourValue;
+	// 0000 0000 0000 0001		1
+	// 0000 0000 0000 0100		4
+	// 0000 0000 0000 0000		0
+	//short result = myValue | yourValue;
+	// 0000 0000 0000 0001		1
+	// 0000 0000 0000 0100		4
+	// 0000 0000 0000 0101		5	
+	short myValue = 3;
+	short yourValue = 6;
+	short result = myValue & yourValue;
+	// 0000 0000 0000 0011		3
+	// 0000 0000 0000 0110		6
+	// 0000 0000 0000 0010		2
+
+	//cout << myValue << endl;
+	cout << result << endl;
 }
 
 
