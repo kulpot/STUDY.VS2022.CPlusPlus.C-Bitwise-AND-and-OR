@@ -7,10 +7,12 @@ using std::endl;
 
 void main()
 {
-	// 0100 0100 0000 0001
+	// 0000 0000 0000 0001
 	short myValue = 1;
-	// 0100 0100 0000 0100
+	// 0000 0000 0000 0100
 	short yourValue = 4;
+
+	bool b = true && false;
 
 	cout << myValue << endl;
 }
